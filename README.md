@@ -29,7 +29,7 @@ Dataset yang digunakan berasal dari data transaksi e-commerce.
 
 1. Install dependencies:
 
-pip install
+pip install -r requirements.txt
 
 2. Jalankan streamlit:
 
