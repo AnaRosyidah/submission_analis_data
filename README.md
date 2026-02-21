@@ -1,38 +1,42 @@
 # 📊 E-Commerce Delivery & Payment Psychology Analysis
 
-## 📌 Deskripsi Proyek
+## 🚀 Setup Virtual Environment (WAJIB)
+Untuk menghindari konflik versi library, buat virtual environment terlebih dahulu.
+1. Pastikan Python Terinstall
 
-Proyek ini bertujuan untuk menganalisis:
+   Cek versi Python:
+   python --version
+   Disarankan menggunakan Python 3.12.9
 
-1. Performa keterlambatan pengiriman (Delivery Performance)
-2. Hubungan metode pembayaran dengan perilaku pelanggan (Payment Psychology)
+2. Buat Virtual Environment
 
-Dataset yang digunakan berasal dari data transaksi e-commerce.
+   python -m venv venv
 
----
+3. Aktifkan Virtual Environment
 
-## 📊 Insight yang Diperoleh
+   📌 Untuk Mac / Linux:
+      source venv/bin/activate
+   📌 Untuk Windows:
+      venv\Scripts\activate
 
-### 1️⃣ Delivery Analysis
-- Terdapat proporsi order yang mengalami keterlambatan.
-- Order yang terlambat cenderung memiliki rating review lebih rendah.
-- Beberapa metode pembayaran memiliki tingkat keterlambatan lebih tinggi.
+   Jika berhasil, terminal akan menampilkan (venv) di depan path.
 
-### 2️⃣ Payment Psychology
-- Metode pembayaran tertentu memiliki rata-rata nilai belanja lebih besar.
-- Repeat customer lebih banyak menggunakan metode pembayaran tertentu.
-- Distribusi nilai pembayaran berbeda antar metode pembayaran.
+4. Menjalankan Notebook (Opsional – Untuk Analisis)
 
----
+   jupyter notebook
 
 ## 🚀 Cara Menjalankan Dashboard
 
 1. Install dependencies:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 2. Jalankan streamlit:
 
-streamlit run dashboard/dashboard.py
+   streamlit run dashboard/dashboard.py
+   Setelah dijalankan, akan muncul URL seperti:
+   - Local URL: http://localhost:xxxx
 
 3. Dashboard akan terbuka di browser.
+
+   https://ecommercesubmission.streamlit.app/
