@@ -12,8 +12,8 @@ st.title("📊 E-Commerce Delivery & Payment Analysis Dashboard (2017–2018)")
 
 st.markdown("""
 Dashboard ini dibuat untuk menjawab dua pertanyaan bisnis:
-1. Pengaruh keterlambatan pengiriman terhadap review, nilai transaksi, dan repeat customer.
-2. Perbedaan nilai transaksi dan loyalitas berdasarkan metode pembayaran.
+1. Bagaimana dampak keterlambatan pengiriman terhadap review score, nilai transaksi, dan repeat rate pelanggan pada periode 2017–2018?
+2. Metode pembayaran mana yang menunjukkan loyalitas pelanggan paling stabil berdasarkan kombinasi rata-rata nilai transaksi dan repeat rate, serta apakah credit_card menjadi metode dengan volume transaksi tinggi dan repeat rate yang konsisten?
 """)
 
 # =========================
